@@ -1,0 +1,1 @@
+C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\MelhorAmigo.UWP.csproj;x86
