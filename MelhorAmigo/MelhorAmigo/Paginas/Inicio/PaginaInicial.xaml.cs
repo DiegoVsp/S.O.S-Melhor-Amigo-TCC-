@@ -10,7 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace MelhorAmigo.Paginas.Inicio
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class PaginaInicial : ContentPage
+    public partial class PaginaInicial : CarouselPage
     {
         public PaginaInicial()
         {

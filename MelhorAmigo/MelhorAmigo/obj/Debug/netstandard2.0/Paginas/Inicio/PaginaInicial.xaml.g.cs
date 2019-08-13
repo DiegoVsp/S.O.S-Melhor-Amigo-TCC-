@@ -14,7 +14,7 @@ namespace MelhorAmigo.Paginas.Inicio {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Paginas\\Inicio\\PaginaInicial.xaml")]
-    public partial class PaginaInicial : global::Xamarin.Forms.ContentPage {
+    public partial class PaginaInicial : global::Xamarin.Forms.CarouselPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
