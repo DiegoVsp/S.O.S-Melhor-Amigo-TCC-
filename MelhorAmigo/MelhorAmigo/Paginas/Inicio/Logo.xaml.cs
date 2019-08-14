@@ -16,5 +16,9 @@ namespace MelhorAmigo.Paginas.Inicio
         {
             InitializeComponent();
         }
+        private void MudarMenu(object sender, EventArgs args)
+        {
+            App.Current.MainPage = new Inicio.MenuInicio();
+        }
     }
 }
