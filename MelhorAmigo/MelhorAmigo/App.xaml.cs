@@ -10,7 +10,7 @@ namespace MelhorAmigo
         {
             InitializeComponent();
 
-            MainPage = new Paginas.Inicio.Carosel();
+            MainPage = new Paginas.Inicio.MenuInicio();
         }
 
         protected override void OnStart()

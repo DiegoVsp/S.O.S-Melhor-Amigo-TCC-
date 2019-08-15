@@ -15,9 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Paginas\Inicio\Carosel.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Update="Paginas\Inicio\Logo.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

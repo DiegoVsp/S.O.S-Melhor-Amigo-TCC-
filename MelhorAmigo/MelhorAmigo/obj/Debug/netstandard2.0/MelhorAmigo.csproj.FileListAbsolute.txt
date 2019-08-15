@@ -12,4 +12,3 @@ C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo\obj\Debug\netsta
 C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo\obj\Debug\netstandard2.0\MelhorAmigo.pdb
 C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo\obj\Debug\netstandard2.0\Paginas\Inicio\Logo.xaml.g.cs
 C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo\obj\Debug\netstandard2.0\Paginas\Inicio\MenuInicio.xaml.g.cs
-C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo\obj\Debug\netstandard2.0\Paginas\Inicio\Carosel.xaml.g.cs
