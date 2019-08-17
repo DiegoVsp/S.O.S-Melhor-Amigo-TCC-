@@ -16,9 +16,29 @@ namespace MelhorAmigo.Paginas.Inicio
         {
             InitializeComponent();
         }
+        private void apoie(object sender, EventArgs args)
+        {
+            App.Current.MainPage = new NavigationPage(new Pag.Apoie()) { BarBackgroundColor = Color.Black };
+        }
         private void adote(object sender, EventArgs args)
         {
-            App.Current.MainPage = new NavigationPage(new Pag.Adote()){ BarBackgroundColor = Color.DarkGray };
+            App.Current.MainPage = new NavigationPage(new Pag.Adote()) { BarBackgroundColor = Color.Black };
+        }
+        private void dep(object sender, EventArgs args)
+        {
+            App.Current.MainPage = new NavigationPage(new Pag.Depoimentos()) { BarBackgroundColor = Color.Black };
+        }
+        private void leis(object sender, EventArgs args)
+        {
+            App.Current.MainPage = new NavigationPage(new Pag.Leis()) { BarBackgroundColor = Color.Black };
+        }
+        private void tel(object sender, EventArgs args)
+        {
+            App.Current.MainPage = new NavigationPage(new Pag.Telefones()) { BarBackgroundColor = Color.Black };
+        }
+        private void sobre(object sender, EventArgs args)
+        {
+            App.Current.MainPage = new NavigationPage(new Pag.Sobre()) { BarBackgroundColor = Color.Black };
         }
     }
 }

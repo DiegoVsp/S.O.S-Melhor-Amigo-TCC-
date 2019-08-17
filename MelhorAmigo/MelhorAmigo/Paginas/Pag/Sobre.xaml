@@ -4,12 +4,29 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             Title="Sobre"
+             BackgroundColor="White"
              x:Class="MelhorAmigo.Paginas.Pag.Sobre">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+        <StackLayout BackgroundColor="White" Spacing="0">
+            <StackLayout>
+                <Image Source="logo.jpg" HeightRequest="250"/>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Nossa proposta consiste em MINIMIZAR o sofrimento de animais carentes em abandono ou em situação de risco. Assumimos os gastos financeiros para que eles recebam atendimento veterinário ( consultas, exames, cirurgias, tratamentos), ração, transporte e hospedagem. Levamos remédios e atendimento de higiene a animais de bairros periféricos da cidade de Araraquara. E promovemos a CONSCIENTIZAÇÃO E MUDANÇA DE ATITUDES da população para que a importância da Castração, a Guarda Responsável e os DIREITOS DOS ANIMAIS estejam presentes no dia a dia de todos nós."                   
+                   FontAttributes="Bold"
+                   LineBreakMode="WordWrap"
+                   
+                  
+                   BackgroundColor="White"
+                   TextColor="Black"
+                   FontSize="15"
+                   Margin="15"
+                   HorizontalTextAlignment="Start"
+                   
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

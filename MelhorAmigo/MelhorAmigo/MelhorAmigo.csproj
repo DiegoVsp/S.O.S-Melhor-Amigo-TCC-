@@ -21,7 +21,10 @@
     <EmbeddedResource Update="Paginas\Pag\Adote.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Paginas\Pag\Doe.xaml">
+    <EmbeddedResource Update="Paginas\Pag\Apoie.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Paginas\Pag\Depoimentos.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Paginas\Pag\Leis.xaml">
@@ -33,9 +36,5 @@
     <EmbeddedResource Update="Paginas\Pag\Telefones.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Paginas\EsolhaAba\" />
   </ItemGroup>
 </Project>
