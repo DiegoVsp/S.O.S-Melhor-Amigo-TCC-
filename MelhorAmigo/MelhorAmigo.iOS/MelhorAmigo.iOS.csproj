@@ -136,4 +136,13 @@
   <ItemGroup>
     <BundleResource Include="Resources\facebook.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\dog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\logo2.jpeg" />
+  </ItemGroup>
 </Project>

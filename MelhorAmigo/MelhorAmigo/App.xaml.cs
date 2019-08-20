@@ -10,7 +10,8 @@ namespace MelhorAmigo
         {
             InitializeComponent();
 
-            MainPage = new Paginas.Inicio.MenuInicio();
+            MainPage = new NavigationPage (new Paginas.Inicio.MenuInicio()) { BarBackgroundColor = Color.FromHex("#d72234") }; //Colocado para usar Navigation / Color.FromHex para usar cores Hexa
+            // { BarBackgroundColor = Color.Black } para mudar cor barra navegação
         }
 
         protected override void OnStart()

@@ -5,7 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="MelhorAmigo.Paginas.Pag.Adote"
-             Title="Adote"
+             Title="ADOTE"
              
              >
     <ContentPage.Content>
@@ -14,20 +14,21 @@
                 <Image Source="logo.jpg" HeightRequest="150" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
             </StackLayout>
 
-            <StackLayout Spacing="15">
+            <StackLayout Spacing="30">
                 <Label Text="Faça sua escolha" TextColor="Black" FontSize="25" HorizontalTextAlignment="Center"/>
-                <Grid>
+                
+                <Grid RowSpacing="0" ColumnSpacing="5" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="5">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="100"/>
-                        <RowDefinition Height="100"/>
-                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="90"/>
+                        <RowDefinition Height="90"/>
+                        <RowDefinition Height="90"/>
                     </Grid.RowDefinitions>
-                    <Button Grid.Column="0" Grid.Row="0" Grid.RowSpan="3" HeightRequest="60" Text="Cachorro" FontSize="14" TextColor="Black" BackgroundColor="White"/>
-                    <Button Grid.Column="1" Grid.Row="0" Grid.RowSpan="3"  HeightRequest="60" Text="Gato" FontSize="14" TextColor="Black" BackgroundColor="White"/>
+                    <Button ContentLayout="Top, 20" CornerRadius="20" ImageSource="dog.png"  Grid.Column="0" Grid.Row="0" Grid.RowSpan="3" HeightRequest="60"  BackgroundColor="#d72234"/>
+                    <Button ContentLayout="Top, 20" CornerRadius="20" ImageSource="cat.png"  Grid.Column="1" Grid.Row="0" Grid.RowSpan="3"  HeightRequest="60" BackgroundColor="#d72234"/>
                 </Grid>
 
             </StackLayout>

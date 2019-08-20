@@ -498,3 +498,6 @@ C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.Android\obj\Debu
 C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.Android\bin\Debug\MelhorAmigo.dll.mdb
 C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.Android\obj\Debug\90\res\drawable\facebook.png
+C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.Android\obj\Debug\90\res\drawable\dog.png
+C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.Android\obj\Debug\90\res\drawable\cat.png
+C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.Android\obj\Debug\90\res\drawable\logo2.jpeg

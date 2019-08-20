@@ -134,7 +134,10 @@
       <Generator>MSBuild:UpdateGeneratedFiles</Generator>
       <SubType>Designer</SubType>
     </AndroidResource>
+    <Content Include="cat.png" />
+    <Content Include="dog.png" />
     <Content Include="logo.jpg" />
+    <Content Include="logo2.jpeg" />
     <Content Include="Properties\Default.rd.xml" />
   </ItemGroup>
   <ItemGroup>
