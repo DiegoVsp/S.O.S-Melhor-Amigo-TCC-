@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-08-19T20:38:06.581</Modified>
+      <Modified>2019-08-22T13:41:13.343</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\bin\x86\Debug\MelhorAmigo.UWP.exe">
       <PackagePath>entrypoint\MelhorAmigo.UWP.exe</PackagePath>
-      <Modified>2019-08-19T20:38:04.420</Modified>
+      <Modified>2019-08-22T13:41:09.873</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\diego\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.9\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -720,7 +720,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo\bin\Debug\netstandard2.0\MelhorAmigo.dll">
       <PackagePath>MelhorAmigo.dll</PackagePath>
-      <Modified>2019-08-19T20:37:54.619</Modified>
+      <Modified>2019-08-22T13:39:17.178</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -729,6 +729,14 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T21:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\adote.png">
+      <PackagePath>adote.png</PackagePath>
+      <Modified>2019-08-21T15:58:34.293</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\apoie.png">
+      <PackagePath>apoie.png</PackagePath>
+      <Modified>2019-08-21T16:17:43.529</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
@@ -865,9 +873,33 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-08-12T00:15:59.123</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\cat.png">
+      <PackagePath>cat.png</PackagePath>
+      <Modified>2019-08-20T12:43:27.357</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\depoimento.png">
+      <PackagePath>depoimento.png</PackagePath>
+      <Modified>2019-08-21T16:01:58.223</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\dog.png">
+      <PackagePath>dog.png</PackagePath>
+      <Modified>2019-08-20T01:12:11.290</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\leis.png">
+      <PackagePath>leis.png</PackagePath>
+      <Modified>2019-08-21T16:07:48.605</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\telefones.png">
+      <PackagePath>telefones.png</PackagePath>
+      <Modified>2019-08-21T16:03:34.159</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\logo.jpg">
       <PackagePath>logo.jpg</PackagePath>
       <Modified>2019-08-12T00:18:55.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\logo2.jpeg">
+      <PackagePath>logo2.jpeg</PackagePath>
+      <Modified>2019-08-20T14:01:23.351</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -879,11 +911,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-08-19T20:38:04.165</Modified>
+      <Modified>2019-08-22T13:41:09.491</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-08-19T20:38:04.165</Modified>
+      <Modified>2019-08-22T13:41:09.491</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -895,11 +927,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-08-17T14:06:24.800</Modified>
+      <Modified>2019-08-21T16:36:42.983</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\bin\x86\Debug\Core\MelhorAmigo.UWP.exe">
       <PackagePath>MelhorAmigo.UWP.exe</PackagePath>
-      <Modified>2019-08-19T20:38:06.571</Modified>
+      <Modified>2019-08-22T13:41:13.289</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

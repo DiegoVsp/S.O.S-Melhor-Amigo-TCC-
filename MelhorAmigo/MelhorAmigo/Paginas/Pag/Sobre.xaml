@@ -19,8 +19,8 @@
                    
                   
                    BackgroundColor="White"
-                   TextColor="Black"
-                   FontSize="15"
+                   TextColor="Black"           
+                   FontSize="15"  
                    Margin="15"
                    HorizontalTextAlignment="Center"                       
                    

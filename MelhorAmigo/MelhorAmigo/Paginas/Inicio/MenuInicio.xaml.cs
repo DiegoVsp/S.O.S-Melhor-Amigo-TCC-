@@ -15,6 +15,7 @@ namespace MelhorAmigo.Paginas.Inicio
         public MenuInicio()
         {
             InitializeComponent();
+
         }
         private void apoie(object sender, EventArgs args)
         {
