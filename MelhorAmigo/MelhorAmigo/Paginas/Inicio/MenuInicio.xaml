@@ -8,43 +8,44 @@
              BackgroundColor="White"
              x:Class="MelhorAmigo.Paginas.Inicio.MenuInicio">
     <ContentPage.Content>
+        <StackLayout Padding="15" HorizontalOptions="Center" VerticalOptions="Center">
+            <Grid BackgroundColor="White" RowSpacing="6" ColumnSpacing="1">
 
-        <Grid BackgroundColor="White" RowSpacing="1" ColumnSpacing="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <!--estava 300 ao inves de * -->
+                    <RowDefinition Height="90"/>
+                    <!--estava 120 ao inves de * -->
+                    <RowDefinition Height="90"/>
+                    <!--estava 120 ao inves de * -->
 
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
-            <!--estava 300 ao inves de * -->
-            <RowDefinition Height="*"/>
-            <!--estava 120 ao inves de * -->
-            <RowDefinition Height="*"/>
-            <!--estava 120 ao inves de * -->
-
-        </Grid.RowDefinitions>
-
-
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
-
-        </Grid.ColumnDefinitions>
+                </Grid.RowDefinitions>
 
 
-        <Image Grid.Column="0" Grid.Row="0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Grid.ColumnSpan="3" Source="logo.jpg" Margin="20"/>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+
+                </Grid.ColumnDefinitions>
+
+
+                <Image Grid.Column="0" Grid.Row="0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Grid.ColumnSpan="3" Source="logo.jpg"/>
 
 
 
-            <Button ContentLayout="Top, 20" ImageSource="apoie.png"  CornerRadius="20" Text="APOIE" TextColor="White" Clicked="apoie" FontSize="9" BackgroundColor="#d72234" Grid.Column="0" Grid.Row="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
-            <Button ContentLayout="Top, 20" ImageSource="adote.png"  CornerRadius="20" Text="ADOTE" TextColor="White" Clicked="adote" FontSize="9" BackgroundColor="#d72234" Grid.Column="1" Grid.Row="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
-            <Button ContentLayout="Top, 20" ImageSource="depoimento.png"  CornerRadius="20" Text="DEPOIMENTOS" TextColor="White" Clicked="dep" FontSize="9" BackgroundColor="#d72234" Grid.Column="2" Grid.Row="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                <Button ContentLayout="Top, 20" ImageSource="apoie.png"  CornerRadius="20" Text="APOIE" TextColor="White" Clicked="apoie" FontSize="9" BackgroundColor="#d72234" Grid.Column="0" Grid.Row="1" HeightRequest="50"/>
+                <Button ContentLayout="Top, 20" ImageSource="adote.png"  CornerRadius="20" Text="ADOTE" TextColor="White" Clicked="adote" FontSize="9" BackgroundColor="#d72234" Grid.Column="1" Grid.Row="1" HeightRequest="50"/>
+                <Button ContentLayout="Top, 20" ImageSource="depoimento.png"  CornerRadius="20" Text="DEPOIMENTOS" TextColor="White" Clicked="dep" FontSize="9" BackgroundColor="#d72234" Grid.Column="2" Grid.Row="1" HeightRequest="50"/>
 
 
-            <Button ContentLayout="Top, 20" ImageSource="leis.png"  CornerRadius="20" Text="LEGISLAÇÃO" Clicked="leis" TextColor="White" FontSize="9" BackgroundColor="#d72234" Grid.Column="0" Grid.Row="2" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
-            <Button ContentLayout="Top, 20" ImageSource="telefones.png"  CornerRadius="20" Text="TELEFONES UTEIS" TextColor="White" Clicked="tel" FontSize="9" BackgroundColor="#d72234" Grid.Column="1" Grid.Row="2" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
-            <Button ContentLayout="Top, 20" ImageSource="dog.png"  CornerRadius="20" Text="SOBRE NÓS" TextColor="White" Clicked="sobre" FontSize="9" BackgroundColor="#d72234" Grid.Column="2" Grid.Row="2" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                <Button ContentLayout="Top, 20" ImageSource="leis.png"  CornerRadius="20" Text="LEGISLAÇÃO" Clicked="leis" TextColor="White" FontSize="9" BackgroundColor="#d72234" Grid.Column="0" Grid.Row="2" HeightRequest="50"/>
+                <Button ContentLayout="Top, 20" ImageSource="telefones.png"  CornerRadius="20" Text="TELEFONES UTEIS" TextColor="White" Clicked="tel" FontSize="9" BackgroundColor="#d72234" Grid.Column="1" Grid.Row="2" HeightRequest="50"/>
+                <Button ContentLayout="Top, 20" ImageSource="dog.png"  CornerRadius="20" Text="SOBRE NÓS" TextColor="White" Clicked="sobre" FontSize="9" BackgroundColor="#d72234" Grid.Column="2" Grid.Row="2" HeightRequest="50"/>
 
-    </Grid>
-        
+            </Grid>
+        </StackLayout>
+
     </ContentPage.Content>
 
 
