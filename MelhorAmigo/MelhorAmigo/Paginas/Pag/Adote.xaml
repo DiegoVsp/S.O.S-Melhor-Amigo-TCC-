@@ -4,34 +4,35 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             
              x:Class="MelhorAmigo.Paginas.Pag.Adote"
              Title="ADOTE"
              
              >
     <ContentPage.Content>
-        <StackLayout Spacing="0" BackgroundColor="White">
-            <StackLayout Padding="30">
-                <Image Source="logo.jpg" HeightRequest="150" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+        <StackLayout BackgroundColor="White">
+            <StackLayout>
+            <Image HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Source="logo.jpg" HeightRequest="150"/>
             </StackLayout>
 
-            <StackLayout Spacing="30">
-                <Label Text="Faça sua escolha" TextColor="Black" FontSize="25" HorizontalTextAlignment="Center"/>
-                
-                <Grid RowSpacing="0" ColumnSpacing="5" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="5">
+
+            <Label Text="Faça sua escolha" TextColor="Black" FontSize="25" HorizontalTextAlignment="Center"/>
+            
+                <Grid RowSpacing="0" ColumnSpacing="5" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Margin="5">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="90"/>
-                        <RowDefinition Height="90"/>
-                        <RowDefinition Height="90"/>
-                    </Grid.RowDefinitions>
-                    <Button ContentLayout="Top, 20" CornerRadius="20" ImageSource="dog.png"  Grid.Column="0" Grid.Row="0" Grid.RowSpan="3" HeightRequest="60"  BackgroundColor="#d72234"/>
-                    <Button ContentLayout="Top, 20" CornerRadius="20" ImageSource="cat.png"  Grid.Column="1" Grid.Row="0" Grid.RowSpan="3"  HeightRequest="60" BackgroundColor="#d72234"/>
-                </Grid>
 
-            </StackLayout>
+                    <RowDefinition Height="*"/>
+
+                </Grid.RowDefinitions>
+                    <Button ContentLayout="Top, 20" CornerRadius="20" ImageSource="dog.png"  Grid.Column="0" Grid.Row="0"  BackgroundColor="#d72234"/>
+                    <Button ContentLayout="Top, 20" CornerRadius="20" ImageSource="cat.png"  Grid.Column="1" Grid.Row="0"  BackgroundColor="#d72234"/>
+                </Grid>
+           
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

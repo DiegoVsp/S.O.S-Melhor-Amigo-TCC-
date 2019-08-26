@@ -36,6 +36,7 @@
     <RootPropertyPathName Name="EllipseOffset" />
     <RootPropertyPathName Name="FormsDataTemplate" />
     <RootPropertyPathName Name="Item" />
+    <RootPropertyPathName Name="Container" />
     <RootPropertyPathName Name="IsPaneOpen" />
     <RootPropertyPathName Name="Master" />
     <RootPropertyPathName Name="Detail" />
@@ -43,6 +44,7 @@
     <RootPropertyPathName Name="TitleView" />
     <RootPropertyPathName Name="Title" />
     <RootPropertyPathName Name="TitleColor" />
+    <RootPropertyPathName Name="AutomationId" />
     <RootPropertyPathName Name="IsEnabled" />
     <RootPropertyPathName Name="Text" />
     <RootPropertyPathName Name="HorizontalTextAlignment" />
@@ -56,7 +58,6 @@
     <RootPropertyPathName Name="TextColor" />
     <RootPropertyPathName Name="ImageSource" />
     <RootPropertyPathName Name="Value" />
-    <RootPropertyPathName Name="AutomationId" />
     <RootPropertyPathName Name="Cell" />
     <RootPropertyPathName Name="RenderHeight" />
     <RootPropertyPathName Name="View" />
@@ -517,6 +518,7 @@
     <RootType FullName="Xamarin.Forms.Platform.UWP.ItemContentControl">
       <RootProperty Name="FormsDataTemplate" />
       <RootProperty Name="FormsDataContext" />
+      <RootProperty Name="FormsContainer" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ItemsWrapGrid">
       <RootProperty Name="Orientation" />

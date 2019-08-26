@@ -74,8 +74,8 @@
 						<Value>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</Value>
 					</Candidate>
 				</NamedResource>
-				<ResourceMapSubtree name="Items">
-					<NamedResource name="ItemsViewStyles.xbf" uri="ms-resource://Xamarin.Forms.Platform.UAP/Files/Xamarin.Forms.Platform.UAP/Items/ItemsViewStyles.xbf">
+				<ResourceMapSubtree name="CollectionView">
+					<NamedResource name="ItemsViewStyles.xbf" uri="ms-resource://Xamarin.Forms.Platform.UAP/Files/Xamarin.Forms.Platform.UAP/CollectionView/ItemsViewStyles.xbf">
 						<Candidate type="EmbeddedData">
 							<Base64Value>[Embedded Binary Data]</Base64Value>
 						</Candidate>
