@@ -16,5 +16,14 @@ namespace MelhorAmigo.Paginas.Pag
         {
             InitializeComponent();
         }
+        
+        private void IrParaFormGato(object sender, EventArgs args)
+        {
+            Navigation.PushAsync(new Paginas.formulario.Gato());
+        }
+    private void IrParaFormCachorro(object sender, EventArgs args)
+    {
+        Navigation.PushAsync(new Paginas.formulario.Cachorro());
     }
+}
 }
