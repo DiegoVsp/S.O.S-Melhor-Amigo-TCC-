@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="S.O.S - MELHOR AMIGO"
+             x:Class="MelhorAmigo.Paginas.Pag.sos">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="White" Spacing="0">
+
+                <StackLayout Padding="30">
+                    <Image Source="logo2.jpeg" HeightRequest="150" HorizontalOptions="Center" VerticalOptions="Center"/>
+                </StackLayout>
+
+                <StackLayout BackgroundColor="White" Padding="30">
+
+                    <Label Text="Nossa proposta consiste em MINIMIZAR o sofrimento de animais carentes em abandono ou em situação de risco. Assumimos os gastos financeiros para que eles recebam atendimento veterinário ( consultas, exames, cirurgias, tratamentos), ração, transporte e hospedagem. Levamos remédios e atendimento de higiene a animais de bairros periféricos da cidade de Araraquara. E promovemos a CONSCIENTIZAÇÃO E MUDANÇA DE ATITUDES da população para que a importância da Castração, a Guarda Responsável e os DIREITOS DOS ANIMAIS estejam presentes no dia a dia de todos nós."                   
+                   FontAttributes="Bold"
+                   LineBreakMode="WordWrap"
+                   
+                   
+                   BackgroundColor="White"
+                   TextColor="Black"           
+                   FontSize="15"  
+                    
+                />
+                </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

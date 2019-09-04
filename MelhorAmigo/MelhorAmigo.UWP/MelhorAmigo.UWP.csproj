@@ -103,8 +103,6 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="adote.png" />
-    <Content Include="apoie.png" />
     <Content Include="Assets\LargeTile.scale-100.png" />
     <Content Include="Assets\LargeTile.scale-200.png" />
     <Content Include="Assets\LargeTile.scale-400.png" />
@@ -132,18 +130,17 @@
     <Content Include="Assets\Wide310x150Logo.scale-100.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
-    <AndroidResource Include="facebook.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <Content Include="cat.png" />
-    <Content Include="depoimento.png" />
-    <Content Include="dog.png" />
-    <Content Include="leis.png" />
-    <Content Include="logo.jpg" />
-    <Content Include="logo2.jpeg" />
+    <Content Include="Resources\Bot1.png" />
+    <Content Include="Resources\Bot2.png" />
+    <Content Include="Resources\Bot3.png" />
+    <Content Include="Resources\Bot4.png" />
+    <Content Include="Resources\Bot5.png" />
+    <Content Include="Resources\Bot6.png" />
+    <Content Include="Resources\cat.png" />
+    <Content Include="Resources\dog.png" />
+    <Content Include="Resources\logo.jpg" />
+    <Content Include="Resources\logo2.jpeg" />
     <Content Include="Properties\Default.rd.xml" />
-    <Content Include="telefones.png" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">

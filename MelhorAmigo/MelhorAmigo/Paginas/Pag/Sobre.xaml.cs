@@ -16,5 +16,13 @@ namespace MelhorAmigo.Paginas.Pag
         {
             InitializeComponent();
         }
+        private void site(object sender, EventArgs args)
+        {            
+            Navigation.PushAsync(new Pag.Site());
+        }
+        private void sos_amigo(object sender, EventArgs args)
+        {
+            Navigation.PushAsync(new Pag.sos());
+        }
     }
 }

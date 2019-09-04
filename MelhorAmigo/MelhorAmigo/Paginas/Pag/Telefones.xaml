@@ -7,10 +7,14 @@
              x:Class="MelhorAmigo.Paginas.Pag.Telefones"
              Title="TELEFONES">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+
+        <StackLayout Margin="3" Spacing="5">
+            <Button Text="Ouvidoria Animal" FontSize="15" FontAttributes="Bold" TextColor="White" BackgroundColor="#d72234"/>
+            <Button Text="Coleta de Animais Mortos" FontSize="15" FontAttributes="Bold" TextColor="White" BackgroundColor="#d72234"/>
+            <Button Text="Animais Silvestres" FontSize="15" FontAttributes="Bold" TextColor="White" BackgroundColor="#d72234"/>
+            <Button Text="Guarda Municipal" FontSize="15" FontAttributes="Bold" TextColor="White" BackgroundColor="#d72234"/>
+            <Button Text="Feira de Adoção" FontSize="15" FontAttributes="Bold" TextColor="White" BackgroundColor="#d72234"/>
         </StackLayout>
+
     </ContentPage.Content>
 </ContentPage>

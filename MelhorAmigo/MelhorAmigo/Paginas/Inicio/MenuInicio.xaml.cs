@@ -28,10 +28,10 @@ namespace MelhorAmigo.Paginas.Inicio
             //App.Current.MainPage = new NavigationPage(new Pag.Adote()) { BarBackgroundColor = Color.Black };
             Navigation.PushAsync(new Pag.Adote());
         }
-        private void dep(object sender, EventArgs args)
+        private void dicas(object sender, EventArgs args)
         {
             //App.Current.MainPage = new NavigationPage(new Pag.Depoimentos()) { BarBackgroundColor = Color.Black };
-            Navigation.PushAsync(new Pag.Depoimentos());
+            Navigation.PushAsync(new Pag.Dicas());
         }
         private void leis(object sender, EventArgs args)
         {

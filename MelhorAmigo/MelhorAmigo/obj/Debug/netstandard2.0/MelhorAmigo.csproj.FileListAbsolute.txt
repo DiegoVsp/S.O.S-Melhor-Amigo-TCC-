@@ -16,6 +16,8 @@ C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo\obj\Debug\netsta
 C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo\obj\Debug\netstandard2.0\Paginas\Pag\Sobre.xaml.g.cs
 C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo\obj\Debug\netstandard2.0\Paginas\Pag\Telefones.xaml.g.cs
 C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo\obj\Debug\netstandard2.0\Paginas\Pag\Apoie.xaml.g.cs
-C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo\obj\Debug\netstandard2.0\Paginas\Pag\Depoimentos.xaml.g.cs
 C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo\obj\Debug\netstandard2.0\Paginas\formulario\Cachorro.xaml.g.cs
 C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo\obj\Debug\netstandard2.0\Paginas\formulario\Gato.xaml.g.cs
+C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo\obj\Debug\netstandard2.0\Paginas\ONG\Site.xaml.g.cs
+C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo\obj\Debug\netstandard2.0\Paginas\ONG\sos.xaml.g.cs
+C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo\obj\Debug\netstandard2.0\Paginas\Pag\Dicas.xaml.g.cs
