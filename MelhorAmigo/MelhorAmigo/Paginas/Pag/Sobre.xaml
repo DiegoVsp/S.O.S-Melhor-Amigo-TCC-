@@ -8,9 +8,9 @@
              BackgroundColor="White"
              x:Class="MelhorAmigo.Paginas.Pag.Sobre">
     <ContentPage.Content>
-        <StackLayout Margin="3" Spacing="5">
-            <Button Text="NOSSO SITE" Clicked="site" FontSize="15" FontAttributes="Bold" TextColor="White" BackgroundColor="DimGray"/>
-            <Button Text="S.O.S - MELHOR AMIGO" Clicked="sos_amigo" FontSize="15" FontAttributes="Bold" TextColor="White" BackgroundColor="Gray"/>            
+        <StackLayout Margin="3" Spacing="0">
+            <Button Text="NOSSO SITE" Clicked="site" FontSize="15" FontAttributes="Bold" TextColor="White" BackgroundColor="#d72234"/>
+            <Button Text="S.O.S - MELHOR AMIGO" Clicked="sos_amigo" FontSize="15" FontAttributes="Bold" TextColor="White" BackgroundColor="#d72234"/>            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

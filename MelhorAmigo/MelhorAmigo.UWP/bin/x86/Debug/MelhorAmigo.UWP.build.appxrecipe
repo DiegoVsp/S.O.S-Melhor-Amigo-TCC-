@@ -49,6 +49,9 @@
     <AppxPackagedFile Include="C:\Users\diego\.nuget\packages\xamarin.forms\4.2.0.709249\lib\uap10.0\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\diego\.nuget\packages\xamarin.forms.inputkit\3.0.12\lib\netstandard2.0\Plugin.InputKit.dll">
+      <PackagePath>Plugin.InputKit.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo\bin\Debug\netstandard2.0\MelhorAmigo.dll">
       <PackagePath>MelhorAmigo.dll</PackagePath>
     </AppxPackagedFile>
@@ -183,9 +186,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\Resources\Bot6.png">
       <PackagePath>Resources\Bot6.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\Resources\cat.png">
-      <PackagePath>Resources\cat.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\Resources\dog.png">
       <PackagePath>Resources\dog.png</PackagePath>

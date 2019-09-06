@@ -4,6 +4,7 @@ C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.Android\obj\Debu
 C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.Android\obj\Debug\90\android\assets\MelhorAmigo.dll
 C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.Android\obj\Debug\90\android\assets\Mono.Android.dll
 C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.Android\obj\Debug\90\android\assets\mscorlib.dll
+C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.Android\obj\Debug\90\android\assets\Plugin.InputKit.dll
 C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.Android\obj\Debug\90\android\assets\System.Core.dll
 C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.Android\obj\Debug\90\android\assets\System.dll
 C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.Android\obj\Debug\90\android\assets\System.Numerics.dll

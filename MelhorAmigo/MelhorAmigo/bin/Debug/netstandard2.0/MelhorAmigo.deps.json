@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "63690fe121907c8caf98243323568a559fdb22d2"
+    "signature": "e0dd9e8c93638040e17577613994b6b49bbdcc0c"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,7 +11,8 @@
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "Xamarin.Essentials": "1.2.0",
-          "Xamarin.Forms": "4.2.0.709249"
+          "Xamarin.Forms": "4.2.0.709249",
+          "Xamarin.Forms.InputKit": "3.0.12"
         },
         "runtime": {
           "MelhorAmigo.dll": {}
@@ -57,6 +58,17 @@
             "fileVersion": "4.2.0.75"
           }
         }
+      },
+      "Xamarin.Forms.InputKit/3.0.12": {
+        "dependencies": {
+          "Xamarin.Forms": "4.2.0.709249"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.InputKit.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -100,6 +112,13 @@
       "sha512": "sha512-3DWqPSn9kSKJW5mwjmICV/+4IpPQrequEN1VXUhsF0i9KKnfj49jFk9VbJnT9o2aesJAk00NED67XPbSmbxKjw==",
       "path": "xamarin.forms/4.2.0.709249",
       "hashPath": "xamarin.forms.4.2.0.709249.nupkg.sha512"
+    },
+    "Xamarin.Forms.InputKit/3.0.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fcfRUEUn+C6cEWA5iBYIZFn7G13WaYY5GgIEMNBk2H/pw9i94ouDtzvjFZ2JpXeZ/QjAHKLUVEz5ZOnFndlExQ==",
+      "path": "xamarin.forms.inputkit/3.0.12",
+      "hashPath": "xamarin.forms.inputkit.3.0.12.nupkg.sha512"
     }
   }
 }

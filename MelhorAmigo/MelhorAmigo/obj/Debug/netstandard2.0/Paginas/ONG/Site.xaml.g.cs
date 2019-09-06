@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("MelhorAmigo.Paginas.ONG.Site.xaml", "Paginas/ONG/Site.xaml", typeof(global::MelhorAmigo.Paginas.Pag.Site))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("MelhorAmigo.Paginas.ONG.Site.xaml", "Paginas/ONG/Site.xaml", typeof(global::MelhorAmigo.Paginas.ONG.Site))]
 
-namespace MelhorAmigo.Paginas.Pag {
+namespace MelhorAmigo.Paginas.ONG {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Paginas\\ONG\\Site.xaml")]

@@ -5,6 +5,7 @@ public class MonoPackageManager_Resources {
 		"MelhorAmigo.Android.dll",
 		"FormsViewGroup.dll",
 		"MelhorAmigo.dll",
+		"Plugin.InputKit.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

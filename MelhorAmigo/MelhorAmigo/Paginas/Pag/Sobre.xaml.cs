@@ -18,11 +18,11 @@ namespace MelhorAmigo.Paginas.Pag
         }
         private void site(object sender, EventArgs args)
         {            
-            Navigation.PushAsync(new Pag.Site());
+            Navigation.PushAsync(new ONG.Site());
         }
         private void sos_amigo(object sender, EventArgs args)
         {
-            Navigation.PushAsync(new Pag.sos());
+            Navigation.PushAsync(new ONG.sos());
         }
     }
 }

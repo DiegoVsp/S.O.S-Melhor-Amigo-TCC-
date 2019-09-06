@@ -12,9 +12,12 @@ namespace MelhorAmigo.Paginas.Pag
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class sos : ContentPage
     {
+        
+
         public sos()
         {
             InitializeComponent();
         }
+       
     }
 }

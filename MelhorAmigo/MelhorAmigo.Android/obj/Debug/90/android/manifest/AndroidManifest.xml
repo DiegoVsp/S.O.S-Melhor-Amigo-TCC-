@@ -5,8 +5,8 @@
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-  <application android:label="MelhorAmigo.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true">
-    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="MelhorAmigo" android:theme="@style/MainTheme" android:name="md51eb8ad5a2ee7ecea0260ab440890c332.MainActivity">
+  <application android:label="MelhorAmigo.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/sos" android:debuggable="true">
+    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/sos" android:label="MelhorAmigo" android:theme="@style/MainTheme" android:name="md51eb8ad5a2ee7ecea0260ab440890c332.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

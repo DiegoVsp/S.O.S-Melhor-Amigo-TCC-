@@ -5,13 +5,20 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              Title="S.O.S - MELHOR AMIGO"
-             x:Class="MelhorAmigo.Paginas.Pag.sos">
+             x:Class="MelhorAmigo.Paginas.ONG.sos">
     <ContentPage.Content>
         <ScrollView>
             <StackLayout BackgroundColor="White" Spacing="0">
 
-                <StackLayout Padding="30">
-                    <Image Source="logo2.jpeg" HeightRequest="150" HorizontalOptions="Center" VerticalOptions="Center"/>
+                <StackLayout Padding="10" BackgroundColor="White">
+                    <Image HeightRequest="190">
+                        <Image.Source>
+                            <OnPlatform x:TypeArguments="ImageSource">
+                                <On Platform="Android, IOS" Value="logo2.jpeg"/>
+                                <On Platform="UWP" Value="Resources/logo2.jpeg"/>
+                            </OnPlatform>
+                        </Image.Source>
+                    </Image>                    
                 </StackLayout>
 
                 <StackLayout BackgroundColor="White" Padding="30">

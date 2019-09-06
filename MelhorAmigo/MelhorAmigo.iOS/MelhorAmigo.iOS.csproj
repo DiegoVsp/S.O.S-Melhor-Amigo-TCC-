@@ -122,6 +122,9 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="4.2.0.709249" />
     <PackageReference Include="Xamarin.Essentials" Version="1.2.0" />
+    <PackageReference Include="Xamarin.Forms.InputKit">
+      <Version>3.0.12</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
@@ -137,27 +140,24 @@
     <BundleResource Include="Resources\dog.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\cat.png" />
-  </ItemGroup>
-  <ItemGroup>
     <BundleResource Include="Resources\logo2.jpeg" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Bot6.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\Bot1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\Bot2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\Bot3.png" />
+    <BundleResource Include="Resources\Bot4.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Bot5.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\Bot4.png" />
+    <BundleResource Include="Resources\Bot3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bot1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bot2.png" />
   </ItemGroup>
 </Project>

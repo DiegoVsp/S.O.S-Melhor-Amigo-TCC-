@@ -3,29 +3,43 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
              mc:Ignorable="d"
              x:Class="MelhorAmigo.Paginas.Pag.Apoie"
              Title="APOIE">
     <ContentPage.Content>
         <StackLayout BackgroundColor="White">
+            
             <StackLayout>
-                <Image Source="logo2.jpeg" HeightRequest="150" HorizontalOptions="Center" VerticalOptions="Center"/>
-            </StackLayout>
+                <Image HeightRequest="190">
+                    <Image.Source>
+                        <OnPlatform x:TypeArguments="ImageSource">
+                            <On Platform="Android, IOS" Value="logo2.jpeg"/>
+                            <On Platform="UWP" Value="Resources/logo2.jpeg"/>
+                        </OnPlatform>
+                    </Image.Source>
+                </Image>              
+               
+            </StackLayout>  
 
             <StackLayout HorizontalOptions="CenterAndExpand">
                 <Label Text=" Quanto você pode doar por mês?" Margin="0,0,0,20" FontSize="20" FontAttributes="Bold" TextColor="Black"/>
             </StackLayout>
+            
             <StackLayout Padding="50,0,50,0" WidthRequest="150" BackgroundColor="White">
-                
-                <Label Text="R$ 10,00" FontAttributes="Bold" TextColor="Black"/>
-                <Label Text="R$ 20,00" FontAttributes="Bold" TextColor="Black"/>
-                <Label Text="R$ 30,00" FontAttributes="Bold" TextColor="Black"/>
-                <Label Text="R$ 40,00" FontAttributes="Bold" TextColor="Black"/>
-                <Label Text="R$ 50,00" FontAttributes="Bold" TextColor="Black"/>
+
+                <input:RadioButtonGroupView>
+                    <input:RadioButton x:Name="rdbDez" Text="R$ 10,00" TextColor="Black"/>
+                    <input:RadioButton x:Name="rdbVinte" Text="R$ 20,00" TextColor="Black"/>
+                    <input:RadioButton x:Name="rdbTrinta" Text="R$ 30,00" TextColor="Black"/>
+                    <input:RadioButton x:Name="rdbQuarenta" Text="R$ 40,00" TextColor="Black"/>
+                    <input:RadioButton x:Name="rdbCinquenta" Text="R$ 50,00" TextColor="Black"/>
+                </input:RadioButtonGroupView>
 
             </StackLayout >
+            
             <StackLayout HorizontalOptions="Center" Margin="0,50,0,0">
-                <Button Text="APOIAR!" CornerRadius="15" FontSize="20" FontAttributes="Bold" TextColor="White" BackgroundColor="LightGreen" WidthRequest="180"/>
+                <Button Text="APOIAR!" CornerRadius="15" FontSize="20" FontAttributes="Bold" TextColor="White" BackgroundColor="#5de382" WidthRequest="180" Clicked="apoiar"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
