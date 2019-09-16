@@ -130,16 +130,18 @@
     <Content Include="Assets\Wide310x150Logo.scale-100.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
-    <Content Include="Resources\Bot1.png" />
-    <Content Include="Resources\Bot2.png" />
-    <Content Include="Resources\Bot3.png" />
-    <Content Include="Resources\Bot4.png" />
-    <Content Include="Resources\Bot5.png" />
-    <Content Include="Resources\Bot6.png" />
+    <Content Include="Resources\adote.png" />
+    <Content Include="Resources\apoie.png" />
+    <Content Include="Resources\Cofrinho.png" />
+    <Content Include="Resources\dicas.png" />
     <Content Include="Resources\dog.png" />
+    <Content Include="Resources\Frase.png" />
+    <Content Include="Resources\leis.png" />
     <Content Include="Resources\logo.jpg" />
     <Content Include="Resources\logo2.jpeg" />
     <Content Include="Properties\Default.rd.xml" />
+    <Content Include="Resources\sobre.png" />
+    <Content Include="Resources\telefones.png" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">

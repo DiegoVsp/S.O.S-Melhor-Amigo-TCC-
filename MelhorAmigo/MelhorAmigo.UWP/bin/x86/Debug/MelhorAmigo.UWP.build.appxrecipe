@@ -169,26 +169,32 @@
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\Resources\Bot1.png">
-      <PackagePath>Resources\Bot1.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\Resources\adote.png">
+      <PackagePath>Resources\adote.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\Resources\Bot2.png">
-      <PackagePath>Resources\Bot2.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\Resources\apoie.png">
+      <PackagePath>Resources\apoie.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\Resources\Bot3.png">
-      <PackagePath>Resources\Bot3.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\Resources\Cofrinho.png">
+      <PackagePath>Resources\Cofrinho.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\Resources\Bot4.png">
-      <PackagePath>Resources\Bot4.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\Resources\Bot5.png">
-      <PackagePath>Resources\Bot5.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\Resources\Bot6.png">
-      <PackagePath>Resources\Bot6.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\Resources\dicas.png">
+      <PackagePath>Resources\dicas.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\Resources\dog.png">
       <PackagePath>Resources\dog.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\Resources\Frase.png">
+      <PackagePath>Resources\Frase.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\Resources\leis.png">
+      <PackagePath>Resources\leis.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\Resources\sobre.png">
+      <PackagePath>Resources\sobre.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\Resources\telefones.png">
+      <PackagePath>Resources\telefones.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\Resources\logo.jpg">
       <PackagePath>Resources\logo.jpg</PackagePath>

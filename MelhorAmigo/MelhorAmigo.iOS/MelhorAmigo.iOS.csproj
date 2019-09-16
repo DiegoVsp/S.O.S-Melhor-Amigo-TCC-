@@ -137,27 +137,30 @@
     <BundleResource Include="Resources\logo.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\dog.png" />
-  </ItemGroup>
-  <ItemGroup>
     <BundleResource Include="Resources\logo2.jpeg" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\Bot6.png" />
+    <BundleResource Include="Resources\Frase.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\Bot4.png" />
+    <BundleResource Include="Resources\Cofrinho.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\Bot5.png" />
+    <BundleResource Include="Resources\adote.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\Bot3.png" />
+    <BundleResource Include="Resources\telefones.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\Bot1.png" />
+    <BundleResource Include="Resources\apoie.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\Bot2.png" />
+    <BundleResource Include="Resources\dicas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\leis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\sobre.png" />
   </ItemGroup>
 </Project>

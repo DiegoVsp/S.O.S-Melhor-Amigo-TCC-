@@ -953,17 +953,17 @@ public final class R {
 		public static final int abc_textfield_search_default_mtrl_alpha = 0x7f070057;
 		public static final int abc_textfield_search_material = 0x7f070058;
 		public static final int abc_vector_test = 0x7f070059;
-		public static final int avd_hide_password = 0x7f07005a;
-		public static final int avd_show_password = 0x7f07005b;
-		public static final int design_bottom_navigation_item_background = 0x7f070063;
-		public static final int design_fab_background = 0x7f070064;
-		public static final int design_ic_visibility = 0x7f070065;
-		public static final int design_ic_visibility_off = 0x7f070066;
-		public static final int design_password_eye = 0x7f070067;
-		public static final int design_snackbar_background = 0x7f070068;
-		public static final int ic_mtrl_chip_checked_black = 0x7f070116;
-		public static final int ic_mtrl_chip_checked_circle = 0x7f070117;
-		public static final int ic_mtrl_chip_close_circle = 0x7f070118;
+		public static final int avd_hide_password = 0x7f07005c;
+		public static final int avd_show_password = 0x7f07005d;
+		public static final int design_bottom_navigation_item_background = 0x7f070060;
+		public static final int design_fab_background = 0x7f070061;
+		public static final int design_ic_visibility = 0x7f070062;
+		public static final int design_ic_visibility_off = 0x7f070063;
+		public static final int design_password_eye = 0x7f070064;
+		public static final int design_snackbar_background = 0x7f070065;
+		public static final int ic_mtrl_chip_checked_black = 0x7f070115;
+		public static final int ic_mtrl_chip_checked_circle = 0x7f070116;
+		public static final int ic_mtrl_chip_close_circle = 0x7f070117;
 		public static final int mtrl_snackbar_background = 0x7f070135;
 		public static final int mtrl_tabs_default_indicator = 0x7f070136;
 		public static final int navigation_empty_icon = 0x7f070137;
@@ -979,8 +979,8 @@ public final class R {
 		public static final int notification_template_icon_low_bg = 0x7f070141;
 		public static final int notification_tile_bg = 0x7f070142;
 		public static final int notify_panel_notification_icon_bg = 0x7f070143;
-		public static final int tooltip_frame_dark = 0x7f070144;
-		public static final int tooltip_frame_light = 0x7f070145;
+		public static final int tooltip_frame_dark = 0x7f070146;
+		public static final int tooltip_frame_light = 0x7f070147;
 	}
 	public static final class id {
 		public static final int action_bar = 0x7f080007;

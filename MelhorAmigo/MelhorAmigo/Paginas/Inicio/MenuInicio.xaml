@@ -27,12 +27,12 @@
 
                     <StackLayout  HorizontalOptions="Center" VerticalOptions="Center">
 
-                        <Grid BackgroundColor="White" RowSpacing="10" ColumnSpacing="10" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                        <Grid BackgroundColor="White" RowSpacing="10" ColumnSpacing="10" HorizontalOptions="Center" VerticalOptions="Center">
 
                             <Grid.RowDefinitions>
 
-                                <RowDefinition Height="90"/>
-                                <RowDefinition Height="90"/>
+                                <RowDefinition Height="98"/>
+                                <RowDefinition Height="98"/>
 
 
 
@@ -41,63 +41,63 @@
 
                             <Grid.ColumnDefinitions>
                                 
-                                <ColumnDefinition Width="auto"/>
-                                <ColumnDefinition Width="auto"/>
-                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="98"/>
+                                <ColumnDefinition Width="98"/>
+                                <ColumnDefinition Width="98"/>
 
 
                             </Grid.ColumnDefinitions>
 
 
-                            <Button ContentLayout="Top, 20" CornerRadius="20" Clicked="apoie" BackgroundColor="#d72234" Grid.Column="0" Grid.Row="0">
+                            <Button ContentLayout="Top, 15" CornerRadius="20" Text="APOIE" TextColor="White" Clicked="apoie" FontSize="9" FontAttributes="Bold" BackgroundColor="#d72234" Grid.Column="0" Grid.Row="0">
                                 <Button.ImageSource>
                                     <OnPlatform x:TypeArguments="FileImageSource">
-                                        <On Platform="Android, IOS" Value="dog.png"/>
-                                        <On Platform="UWP" Value="Resources/dog.png"/>
+                                        <On Platform="Android, IOS" Value="apoie.png"/>
+                                        <On Platform="UWP" Value="Resources/apoie.png"/>
                                     </OnPlatform>
                                 </Button.ImageSource>
                             </Button>
 
-                            <Button ContentLayout="Top, 20" CornerRadius="20" Clicked="adote" FontSize="9" BackgroundColor="#d72234" Grid.Column="1" Grid.Row="0">
+                            <Button ContentLayout="Top, 15" CornerRadius="20" Text="ADOTE" TextColor="White" Clicked="adote" FontSize="9" FontAttributes="Bold" BackgroundColor="#d72234" Grid.Column="1" Grid.Row="0">
                                 <Button.ImageSource>
                                     <OnPlatform x:TypeArguments="FileImageSource">
-                                        <On Platform="Android, IOS" Value="Bot2.png"/>
-                                        <On Platform="UWP" Value="Resources/Bot2.png"/>
+                                        <On Platform="Android, IOS" Value="adote.png"/>
+                                        <On Platform="UWP" Value="Resources/adote.png"/>
                                     </OnPlatform>
                                 </Button.ImageSource>
                             </Button>
 
-                            <Button ContentLayout="Top, 20" CornerRadius="20" Clicked="dicas" FontSize="9" BackgroundColor="#d72234" Grid.Column="2" Grid.Row="0">
+                            <Button ContentLayout="Top, 15" CornerRadius="20" Text="DICAS" TextColor="White" Clicked="dicas" FontSize="9" FontAttributes="Bold" BackgroundColor="#d72234" Grid.Column="2" Grid.Row="0">
                                 <Button.ImageSource>
                                     <OnPlatform x:TypeArguments="FileImageSource">
-                                        <On Platform="Android, IOS" Value="Bot5.png"/>
-                                        <On Platform="UWP" Value="Resources/Bot5.png"/>
+                                        <On Platform="Android, IOS" Value="dicas.png"/>
+                                        <On Platform="UWP" Value="Resources/dicas.png"/>
                                     </OnPlatform>
                                 </Button.ImageSource>
                             </Button>
 
 
-                            <Button ContentLayout="Top, 20" CornerRadius="20" Clicked="leis" FontSize="9" BackgroundColor="#d72234" Grid.Column="0" Grid.Row="1">
+                            <Button ContentLayout="Top, 15" CornerRadius="20" Text="LEIS" TextColor="White" Clicked="leis" FontSize="9" FontAttributes="Bold" BackgroundColor="#d72234" Grid.Column="0" Grid.Row="1">
                                 <Button.ImageSource>
                                     <OnPlatform x:TypeArguments="FileImageSource">
-                                        <On Platform="Android, IOS" Value="Bot4.png"/>
-                                        <On Platform="UWP" Value="Resources/Bot4.png"/>
+                                        <On Platform="Android, IOS" Value="leis.png"/>
+                                        <On Platform="UWP" Value="Resources/leis.png"/>
                                     </OnPlatform>
                                 </Button.ImageSource>
                             </Button>
-                            <Button ContentLayout="Top, 20" CornerRadius="20" Clicked="tel" FontSize="9" BackgroundColor="#d72234" Grid.Column="1" Grid.Row="1">
+                            <Button ContentLayout="Top, 15" CornerRadius="20" Text="TELEFONES ÚTEIS" TextColor="White" Clicked="tel" FontSize="9" FontAttributes="Bold" BackgroundColor="#d72234" Grid.Column="1" Grid.Row="1">
                                 <Button.ImageSource>
                                     <OnPlatform x:TypeArguments="FileImageSource">
-                                        <On Platform="Android, IOS" Value="Bot6.png"/>
-                                        <On Platform="UWP" Value="Resources/Bot6.png"/>
+                                        <On Platform="Android, IOS" Value="telefones.png"/>
+                                        <On Platform="UWP" Value="Resources/telefones.png"/>
                                     </OnPlatform>
                                 </Button.ImageSource>
                             </Button>
-                            <Button ContentLayout="Top, 20" CornerRadius="20" Clicked="sobre" FontSize="9" BackgroundColor="#d72234" Grid.Column="2" Grid.Row="1">
+                            <Button ContentLayout="Top, 15" CornerRadius="20" Text="SOBRE NÓS" TextColor="White" Clicked="sobre" FontSize="9" FontAttributes="Bold" BackgroundColor="#d72234" Grid.Column="2" Grid.Row="1">
                                 <Button.Image>
                                     <OnPlatform x:TypeArguments="FileImageSource">
-                                        <On Platform="Android, IOS" Value="Bot3.png"/>
-                                        <On Platform="UWP" Value="Resources/Bot3.png"/>
+                                        <On Platform="Android, IOS" Value="sobre.png"/>
+                                        <On Platform="UWP" Value="Resources/sobre.png"/>
                                     </OnPlatform>
                                 </Button.Image>                               
                             </Button>
