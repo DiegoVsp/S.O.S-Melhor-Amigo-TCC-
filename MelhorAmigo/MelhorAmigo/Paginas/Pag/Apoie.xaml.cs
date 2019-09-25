@@ -24,19 +24,23 @@ namespace MelhorAmigo.Paginas.Pag
             }
             else if (rdbVinte.IsChecked)
             {
-                DisplayAlert("Olá", "Opção de R$ 20,00 escolhida", "OK");
+                Navigation.PushAsync(new Doações.DoarVinte());
+                //DisplayAlert("Olá", "Opção de R$ 20,00 escolhida", "OK");
             }
             else if (rdbTrinta.IsChecked)
             {
-                DisplayAlert("Olá", "Opção de R$ 30,00 escolhida", "OK");
+                Navigation.PushAsync(new Doações.DoarTrinta());
+                //DisplayAlert("Olá", "Opção de R$ 30,00 escolhida", "OK");
             }
             else if (rdbQuarenta.IsChecked)
             {
-                DisplayAlert("Olá", "Opção de R$ 40,00 escolhida", "OK");
+                Navigation.PushAsync(new Doações.DoarQuarenta());
+                //DisplayAlert("Olá", "Opção de R$ 40,00 escolhida", "OK");
             }
             else if (rdbCinquenta.IsChecked)
             {
-                DisplayAlert("Olá", "Opção de R$ 50,00 escolhida", "OK");
+                Navigation.PushAsync(new Doações.DoarCinquenta());
+                //DisplayAlert("Olá", "Opção de R$ 50,00 escolhida", "OK");
             }
         }
     }

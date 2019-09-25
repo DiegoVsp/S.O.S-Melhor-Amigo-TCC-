@@ -9,14 +9,14 @@
         <StackLayout>
             <WebView 
                 x:Name="Navegador"
-                Source="http://pag.ae/7Vd7sMw-v"
+                Source="http://pag.ae/7VhsdVHzs"
                 Navigating="Carregando"
                 Navigated="Carregado"
                 
                 HorizontalOptions="FillAndExpand"
                 VerticalOptions="FillAndExpand">
 
-
+                            
             </WebView>
             <Label x:Name="LblStatus" />
         </StackLayout>

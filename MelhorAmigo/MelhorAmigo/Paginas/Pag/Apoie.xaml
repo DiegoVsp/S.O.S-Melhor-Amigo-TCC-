@@ -38,8 +38,8 @@
 
             </StackLayout >
             
-            <StackLayout HorizontalOptions="Center" Margin="0,50,0,0">
-                <Button Text="APOIAR!" CornerRadius="15" FontSize="20" FontAttributes="Bold" TextColor="White" BackgroundColor="#5de382" WidthRequest="180" Clicked="apoiar"/>
+            <StackLayout Margin="15,50,15,15" HorizontalOptions="Center">
+                <Button Text="APOIAR!" CornerRadius="15" FontSize="20" FontAttributes="Bold" TextColor="White" BackgroundColor="#5de382" WidthRequest="210" Clicked="apoiar"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

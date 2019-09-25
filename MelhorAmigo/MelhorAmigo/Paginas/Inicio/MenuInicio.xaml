@@ -34,8 +34,6 @@
                                 <RowDefinition Height="98"/>
                                 <RowDefinition Height="98"/>
 
-
-
                             </Grid.RowDefinitions>
 
 
@@ -75,7 +73,6 @@
                                     </OnPlatform>
                                 </Button.ImageSource>
                             </Button>
-
 
                             <Button ContentLayout="Top, 15" CornerRadius="20" Text="LEIS" TextColor="White" Clicked="leis" FontSize="9" FontAttributes="Bold" BackgroundColor="#d72234" Grid.Column="0" Grid.Row="1">
                                 <Button.ImageSource>

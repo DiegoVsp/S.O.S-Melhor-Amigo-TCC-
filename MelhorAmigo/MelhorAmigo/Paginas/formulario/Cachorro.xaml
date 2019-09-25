@@ -21,8 +21,7 @@
                     
 
                 </StackLayout>               
-            </ScrollView>
-            
+            </ScrollView>            
             <Button Text="Enviar" FontSize="25" FontAttributes="Bold" TextColor="White" BackgroundColor="#d72234" VerticalOptions="EndAndExpand" />
         </StackLayout>
     </ContentPage.Content>

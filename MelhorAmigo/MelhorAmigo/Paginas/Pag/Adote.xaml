@@ -6,8 +6,7 @@
              mc:Ignorable="d"
              
              x:Class="MelhorAmigo.Paginas.Pag.Adote"
-             Title="ADOTE"
-             
+             Title="ADOTE"             
              >
     <ContentPage.Content>
         <StackLayout BackgroundColor="White">
@@ -24,12 +23,12 @@
 
             </StackLayout>
 
-            <StackLayout HorizontalOptions="CenterAndExpand">
-                <Label Text="Faça sua escolha!" Margin="0,0,0,20" FontSize="20" FontAttributes="Bold" TextColor="Black"/>
+            <StackLayout HorizontalOptions="Center">
+                <Label Text="Faça sua escolha!" Margin="0,20,0,20" FontSize="25" FontAttributes="Bold" TextColor="Black"/>
             </StackLayout>
-            
-            <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-                <Grid RowSpacing="5" ColumnSpacing="5" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" Margin="5">
+
+            <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="White">
+                <Grid RowSpacing="10" ColumnSpacing="5" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" Margin="5">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
                         
@@ -49,6 +48,7 @@
                             </OnPlatform>
                         </Button.ImageSource>
                     </Button>
+                    
                     <Button ContentLayout="Top, 20" CornerRadius="20" Grid.Column="0" Grid.Row="1" BackgroundColor="#d72234" Clicked="IrParaFormGato" >
                         <Button.ImageSource>
                             <OnPlatform x:TypeArguments="FileImageSource">
@@ -59,7 +59,6 @@
                     </Button>
                 </Grid>
             </StackLayout>
-
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
