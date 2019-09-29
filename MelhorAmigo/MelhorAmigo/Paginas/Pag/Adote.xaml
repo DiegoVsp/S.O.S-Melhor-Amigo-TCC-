@@ -43,8 +43,8 @@
                     <Button ContentLayout="Top, 20" CornerRadius="20" Grid.Column="0" Grid.Row="0" BackgroundColor="#d72234" Clicked="IrParaFormCachorro">
                         <Button.ImageSource>
                             <OnPlatform x:TypeArguments="FileImageSource">
-                                <On Platform="Android, IOS" Value="dog.png"/>
-                                <On Platform="UWP" Value="Resources/dog.png"/>
+                                <On Platform="Android, IOS" Value="btnCao.png"/>
+                                <On Platform="UWP" Value="Resources/btnCao.png"/>
                             </OnPlatform>
                         </Button.ImageSource>
                     </Button>
@@ -52,8 +52,8 @@
                     <Button ContentLayout="Top, 20" CornerRadius="20" Grid.Column="0" Grid.Row="1" BackgroundColor="#d72234" Clicked="IrParaFormGato" >
                         <Button.ImageSource>
                             <OnPlatform x:TypeArguments="FileImageSource">
-                                <On Platform="Android, IOS" Value="dog.png"/>
-                                <On Platform="UWP" Value="Resources/dog.png"/>
+                                <On Platform="Android, IOS" Value="btnGato.png"/>
+                                <On Platform="UWP" Value="Resources/btnGato.png"/>
                             </OnPlatform>
                         </Button.ImageSource>
                     </Button>

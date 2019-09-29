@@ -132,6 +132,8 @@
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
     <Content Include="Resources\adote.png" />
     <Content Include="Resources\apoie.png" />
+    <Content Include="Resources\btnCao.png" />
+    <Content Include="Resources\btnGato.png" />
     <Content Include="Resources\Cofrinho.png" />
     <Content Include="Resources\dicas.png" />
     <Content Include="Resources\dog.png" />

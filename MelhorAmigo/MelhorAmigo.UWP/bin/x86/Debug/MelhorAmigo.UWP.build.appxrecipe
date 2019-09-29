@@ -175,6 +175,12 @@
     <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\Resources\apoie.png">
       <PackagePath>Resources\apoie.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\Resources\btnCao.png">
+      <PackagePath>Resources\btnCao.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\Resources\btnGato.png">
+      <PackagePath>Resources\btnGato.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\Resources\Cofrinho.png">
       <PackagePath>Resources\Cofrinho.png</PackagePath>
     </AppxPackagedFile>

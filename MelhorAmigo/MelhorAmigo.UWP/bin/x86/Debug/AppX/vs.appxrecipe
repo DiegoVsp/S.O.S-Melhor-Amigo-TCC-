@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-25T14:22:16.323</Modified>
+      <Modified>2019-09-28T14:04:42.144</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\bin\x86\Debug\MelhorAmigo.UWP.exe">
       <PackagePath>entrypoint\MelhorAmigo.UWP.exe</PackagePath>
-      <Modified>2019-09-25T14:22:13.394</Modified>
+      <Modified>2019-09-28T14:04:39.502</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -72,7 +72,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo\bin\Debug\netstandard2.0\MelhorAmigo.dll">
       <PackagePath>MelhorAmigo.dll</PackagePath>
-      <Modified>2019-09-25T14:21:59.980</Modified>
+      <Modified>2019-09-28T14:04:29.184</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -225,6 +225,14 @@
       <PackagePath>Resources\apoie.png</PackagePath>
       <Modified>2019-09-07T00:50:29.531</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\Resources\btnCao.png">
+      <PackagePath>Resources\btnCao.png</PackagePath>
+      <Modified>2019-09-28T14:02:35.474</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\Resources\btnGato.png">
+      <PackagePath>Resources\btnGato.png</PackagePath>
+      <Modified>2019-09-28T14:02:35.483</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\Resources\Cofrinho.png">
       <PackagePath>Resources\Cofrinho.png</PackagePath>
       <Modified>2019-09-07T00:30:32.246</Modified>
@@ -271,11 +279,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-09-25T14:22:13.078</Modified>
+      <Modified>2019-09-28T14:04:39.207</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-09-25T14:22:13.079</Modified>
+      <Modified>2019-09-28T14:04:39.207</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -287,11 +295,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-09-07T00:54:03.827</Modified>
+      <Modified>2019-09-28T14:04:40.646</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\bin\x86\Debug\Core\MelhorAmigo.UWP.exe">
       <PackagePath>MelhorAmigo.UWP.exe</PackagePath>
-      <Modified>2019-09-25T14:22:16.314</Modified>
+      <Modified>2019-09-28T14:04:42.135</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
