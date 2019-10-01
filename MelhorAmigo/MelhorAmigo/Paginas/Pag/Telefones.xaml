@@ -8,7 +8,7 @@
              Title="TELEFONES">
     <ContentPage.Content>
 
-        <StackLayout Margin="3" Spacing="0">
+        <StackLayout Margin="3" Spacing="10">
             <Button Text="Ouvidoria Animal" FontSize="15" FontAttributes="Bold" TextColor="White" BackgroundColor="#d72234"/>
             <Button Text="Coleta de Animais Mortos" FontSize="15" FontAttributes="Bold" TextColor="White" BackgroundColor="#d72234"/>
             <Button Text="Animais Silvestres" FontSize="15" FontAttributes="Bold" TextColor="White" BackgroundColor="#d72234"/>

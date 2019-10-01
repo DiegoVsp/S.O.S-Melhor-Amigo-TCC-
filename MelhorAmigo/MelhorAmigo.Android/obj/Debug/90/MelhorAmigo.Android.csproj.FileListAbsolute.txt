@@ -526,3 +526,5 @@ C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.Android\obj\Debu
 C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.Android\obj\Debug\90\res\drawable\dicas.png
 C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.Android\obj\Debug\90\res\drawable\leis.png
 C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.Android\obj\Debug\90\res\drawable\sobre.png
+C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.Android\obj\Debug\90\res\drawable\btncao.png
+C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.Android\obj\Debug\90\res\drawable\btngato.png

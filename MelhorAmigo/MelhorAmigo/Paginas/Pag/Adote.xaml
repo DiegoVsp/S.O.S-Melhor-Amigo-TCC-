@@ -27,20 +27,21 @@
                 <Label Text="Faça sua escolha!" Margin="0,20,0,20" FontSize="25" FontAttributes="Bold" TextColor="Black"/>
             </StackLayout>
 
-            <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="White">
-                <Grid RowSpacing="10" ColumnSpacing="5" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" Margin="5">
+            <StackLayout HorizontalOptions="Center" BackgroundColor="White">
+                <Grid RowSpacing="10" ColumnSpacing="20" HorizontalOptions="FillAndExpand" VerticalOptions="Center" Margin="5">
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="100"/>
                         
                     </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
 
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="100"/>
+                        
 
                     </Grid.RowDefinitions>
 
-                    <Button ContentLayout="Top, 20" CornerRadius="20" Grid.Column="0" Grid.Row="0" BackgroundColor="#d72234" Clicked="IrParaFormCachorro">
+                    <Button ContentLayout="Top, 20" CornerRadius="100" Grid.Column="0" Grid.Row="0" BackgroundColor="#d72234" Clicked="IrParaFormCachorro">
                         <Button.ImageSource>
                             <OnPlatform x:TypeArguments="FileImageSource">
                                 <On Platform="Android, IOS" Value="btnCao.png"/>
@@ -49,7 +50,7 @@
                         </Button.ImageSource>
                     </Button>
                     
-                    <Button ContentLayout="Top, 20" CornerRadius="20" Grid.Column="0" Grid.Row="1" BackgroundColor="#d72234" Clicked="IrParaFormGato" >
+                    <Button ContentLayout="Top, 20" CornerRadius="100" Grid.Column="1" Grid.Row="0" BackgroundColor="#d72234" Clicked="IrParaFormGato" >
                         <Button.ImageSource>
                             <OnPlatform x:TypeArguments="FileImageSource">
                                 <On Platform="Android, IOS" Value="btnGato.png"/>

@@ -7,21 +7,17 @@
              Title="Adote um Cão"
              x:Class="MelhorAmigo.Paginas.formulario.Cachorro">
     <ContentPage.Content>
-        <StackLayout Margin="20,20,20,10">
-            <ScrollView>
-                <StackLayout>
-
-                    <Entry x:Name="Nome" Placeholder="Nome"/>
-
-                    <Entry x:Name="Sobrenome" Placeholder="Sobrenome"/>
-
-                    <Entry x:Name="Endereco" Placeholder="Endereço"/>
-
-                    <Entry x:Name="Telefone" Placeholder="Telefone"/>
-                    
-
-                </StackLayout>               
-            </ScrollView>            
+        <StackLayout>
+            <TableView>
+                <TableRoot>
+                    <TableSection Title="Formulário">
+                        <EntryCell Label="Nome"/>
+                        <EntryCell Label="Sobrenome" Placeholder="Digite o seu sobrenome"/>
+                        <EntryCell Label="Endereço" Placeholder="Digite o seu endereço"/>
+                        <EntryCell Label="Telefone" Placeholder="Digite o seu telefone"/>
+                    </TableSection>
+                </TableRoot>
+            </TableView>
             <Button Text="Enviar" FontSize="25" FontAttributes="Bold" TextColor="White" BackgroundColor="#d72234" VerticalOptions="EndAndExpand" />
         </StackLayout>
     </ContentPage.Content>
