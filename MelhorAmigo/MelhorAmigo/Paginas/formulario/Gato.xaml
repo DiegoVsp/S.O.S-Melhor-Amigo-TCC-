@@ -7,23 +7,24 @@
              Title="Adote um Gato"
              x:Class="MelhorAmigo.Paginas.formulario.Gato">
     <ContentPage.Content>
-        <StackLayout Margin="20,20,20,10">
+        <StackLayout>
             <ScrollView>
                 <StackLayout>
-
-                    <Entry x:Name="Nome" Placeholder="Nome"/>
-
-                    <Entry x:Name="Sobrenome" Placeholder="Sobrenome"/>
-
-                    <Entry x:Name="Endereco" Placeholder="Endereço"/>
-
-                    <Entry x:Name="Telefone" Placeholder="Telefone"/>
-
-
+                    <TableView>
+                        <TableRoot>
+                            <TableSection>
+                                <EntryCell Placeholder="Digite seu Nome"/>
+                                <EntryCell Placeholder="Digite o seu sobrenome"/>
+                                <EntryCell Placeholder="Digite o seu endereço"/>
+                                <EntryCell Placeholder="Digite o seu telefone"/>
+                            </TableSection>
+                        </TableRoot>
+                    </TableView>
                 </StackLayout>
             </ScrollView>
-
-            <Button Text="Enviar" FontSize="25" FontAttributes="Bold" TextColor="White" BackgroundColor="#d72234" VerticalOptions="EndAndExpand" />
+            <StackLayout Margin="10">
+                <Button Text="Enviar" CornerRadius="15" FontSize="25" FontAttributes="Bold" TextColor="White" BackgroundColor="#d72234" WidthRequest="210"  HorizontalOptions="Center"/>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

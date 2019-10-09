@@ -10,56 +10,68 @@
              >
     <ContentPage.Content>
         <StackLayout BackgroundColor="White">
-            
-            <StackLayout Padding="10" BackgroundColor="White">
-                <Image HeightRequest="190">
-                    <Image.Source>
-                        <OnPlatform x:TypeArguments="ImageSource">
-                            <On Platform="Android, IOS" Value="logo.jpg"/>
-                            <On Platform="UWP" Value="Resources/logo.jpg"/>
-                        </OnPlatform>
-                    </Image.Source>
-                </Image>
+            <ScrollView>
+                <StackLayout>
 
-            </StackLayout>
+                    <StackLayout Padding="10" BackgroundColor="White">
+                        <Image HeightRequest="190">
+                            <Image.Source>
+                                <OnPlatform x:TypeArguments="ImageSource">
+                                    <On Platform="Android, IOS" Value="logo.jpg"/>
+                                    <On Platform="UWP" Value="Resources/logo.jpg"/>
+                                </OnPlatform>
+                            </Image.Source>
+                        </Image>
 
-            <StackLayout HorizontalOptions="Center">
-                <Label Text="Faça sua escolha!" Margin="0,20,0,20" FontSize="25" FontAttributes="Bold" TextColor="Black"/>
-            </StackLayout>
+                    </StackLayout>
 
-            <StackLayout HorizontalOptions="Center" BackgroundColor="White">
-                <Grid RowSpacing="10" ColumnSpacing="20" HorizontalOptions="FillAndExpand" VerticalOptions="Center" Margin="5">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="100"/>
-                        <ColumnDefinition Width="100"/>
-                        
-                    </Grid.ColumnDefinitions>
-                    <Grid.RowDefinitions>
+                    <StackLayout HorizontalOptions="Center">
+                        <Label Text="Faça sua escolha!" Margin="0,20,0,20" FontSize="25" FontAttributes="Bold" TextColor="Black"/>
+                    </StackLayout>
 
-                        <RowDefinition Height="100"/>
-                        
+                    <StackLayout HorizontalOptions="Center" BackgroundColor="White">
+                        <Grid RowSpacing="10" ColumnSpacing="40" HorizontalOptions="FillAndExpand" VerticalOptions="Center" Margin="5">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100"/>
+                                <ColumnDefinition Width="100"/>
 
-                    </Grid.RowDefinitions>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
 
-                    <Button ContentLayout="Top, 20" CornerRadius="100" Grid.Column="0" Grid.Row="0" BackgroundColor="#d72234" Clicked="IrParaFormCachorro">
-                        <Button.ImageSource>
-                            <OnPlatform x:TypeArguments="FileImageSource">
-                                <On Platform="Android, IOS" Value="btnCao.png"/>
-                                <On Platform="UWP" Value="Resources/btnCao.png"/>
-                            </OnPlatform>
-                        </Button.ImageSource>
-                    </Button>
-                    
-                    <Button ContentLayout="Top, 20" CornerRadius="100" Grid.Column="1" Grid.Row="0" BackgroundColor="#d72234" Clicked="IrParaFormGato" >
-                        <Button.ImageSource>
-                            <OnPlatform x:TypeArguments="FileImageSource">
-                                <On Platform="Android, IOS" Value="btnGato.png"/>
-                                <On Platform="UWP" Value="Resources/btnGato.png"/>
-                            </OnPlatform>
-                        </Button.ImageSource>
-                    </Button>
-                </Grid>
-            </StackLayout>
+                                <RowDefinition Height="100"/>
+
+
+                            </Grid.RowDefinitions>
+
+                            <Button ContentLayout="Top, 20" CornerRadius="100" Grid.Column="0" Grid.Row="0" BackgroundColor="#d72234" Clicked="IrParaFormCachorro">
+                                <Button.ImageSource>
+                                    <OnPlatform x:TypeArguments="FileImageSource">
+                                        <On Platform="Android, IOS" Value="btnCao.png"/>
+                                        <On Platform="UWP" Value="Resources/btnCao.png"/>
+                                    </OnPlatform>
+                                </Button.ImageSource>
+                            </Button>
+
+                            <Button ContentLayout="Top, 20" CornerRadius="100" Grid.Column="1" Grid.Row="0" BackgroundColor="#d72234" Clicked="IrParaFormGato" >
+                                <Button.ImageSource>
+                                    <OnPlatform x:TypeArguments="FileImageSource">
+                                        <On Platform="Android, IOS" Value="btnGato.png"/>
+                                        <On Platform="UWP" Value="Resources/btnGato.png"/>
+                                    </OnPlatform>
+                                </Button.ImageSource>
+                            </Button>
+                        </Grid>
+                    </StackLayout>
+                    <Frame CornerRadius="15" BackgroundColor="#d72234" Margin="20,30,20,30" Padding="0" HasShadow="False" HorizontalOptions="Center" WidthRequest="350">
+                        <StackLayout >
+
+                            <Label Text="Toda a renda é destinada aos animais carentes" TextColor="White" FontSize="15" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+
+                        </StackLayout>
+                    </Frame>
+
+                </StackLayout>
+            </ScrollView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

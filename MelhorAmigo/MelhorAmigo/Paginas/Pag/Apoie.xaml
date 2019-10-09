@@ -9,38 +9,42 @@
              Title="APOIE">
     <ContentPage.Content>
         <StackLayout BackgroundColor="White">
-            
-            <StackLayout>
-                <Image HeightRequest="180" Margin="0,10,0,0">
-                    <Image.Source>
-                        <OnPlatform x:TypeArguments="ImageSource">
-                            <On Platform="Android, IOS" Value="Cofrinho.png"/>
-                            <On Platform="UWP" Value="Resources/Cofrinho.png"/>
-                        </OnPlatform>
-                    </Image.Source>
-                </Image>              
-               
-            </StackLayout>  
+            <ScrollView>
+                <StackLayout>
 
-            <StackLayout HorizontalOptions="CenterAndExpand">
-                <Label Text=" Quanto você pode doar por mês?" Margin="0,0,0,20" FontSize="20" FontAttributes="Bold" TextColor="Black"/>
-            </StackLayout>
-            
-            <StackLayout Padding="50,0,50,0" WidthRequest="150" BackgroundColor="White">
+                    <StackLayout>
+                        <Image HeightRequest="180" Margin="0,10,0,0">
+                            <Image.Source>
+                                <OnPlatform x:TypeArguments="ImageSource">
+                                    <On Platform="Android, IOS" Value="Cofrinho.png"/>
+                                    <On Platform="UWP" Value="Resources/Cofrinho.png"/>
+                                </OnPlatform>
+                            </Image.Source>
+                        </Image>
 
-                <input:RadioButtonGroupView>
-                    <input:RadioButton x:Name="rdbDez" Text="R$ 10,00" TextColor="Black"/>
-                    <input:RadioButton x:Name="rdbVinte" Text="R$ 20,00" TextColor="Black"/>
-                    <input:RadioButton x:Name="rdbTrinta" Text="R$ 30,00" TextColor="Black"/>
-                    <input:RadioButton x:Name="rdbQuarenta" Text="R$ 40,00" TextColor="Black"/>
-                    <input:RadioButton x:Name="rdbCinquenta" Text="R$ 50,00" TextColor="Black"/>
-                </input:RadioButtonGroupView>
+                    </StackLayout>
 
-            </StackLayout >
-            
-            <StackLayout Margin="15,50,15,15" HorizontalOptions="Center">
-                <Button Text="APOIAR!" CornerRadius="15" FontSize="20" FontAttributes="Bold" TextColor="White" BackgroundColor="#5de382" WidthRequest="210" Clicked="apoiar"/>
-            </StackLayout>
+                    <StackLayout HorizontalOptions="CenterAndExpand">
+                        <Label Text=" Quanto você pode doar por mês?" Margin="0,0,0,20" FontSize="20" FontAttributes="Bold" TextColor="Black"/>
+                    </StackLayout>
+
+                    <StackLayout Padding="50,0,50,0" WidthRequest="150" BackgroundColor="White">
+                        <StackLayout HorizontalOptions="Center">
+                            <input:RadioButtonGroupView>
+                                <input:RadioButton x:Name="rdbDez" Text="R$ 10,00" TextColor="Black"/>
+                                <input:RadioButton x:Name="rdbVinte" Text="R$ 20,00" TextColor="Black"/>
+                                <input:RadioButton x:Name="rdbTrinta" Text="R$ 30,00" TextColor="Black"/>
+                                <input:RadioButton x:Name="rdbQuarenta" Text="R$ 40,00" TextColor="Black"/>
+                                <input:RadioButton x:Name="rdbCinquenta" Text="R$ 50,00" TextColor="Black"/>
+                            </input:RadioButtonGroupView>
+                        </StackLayout>
+                    </StackLayout >
+
+                    <StackLayout Margin="15,50,15,15" HorizontalOptions="Center">
+                        <Button Text="APOIAR!" CornerRadius="15" FontSize="20" FontAttributes="Bold" TextColor="White" BackgroundColor="#5de382" WidthRequest="210" Clicked="apoiar"/>
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

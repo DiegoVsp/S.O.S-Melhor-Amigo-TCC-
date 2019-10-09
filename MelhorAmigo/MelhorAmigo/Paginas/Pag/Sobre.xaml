@@ -25,8 +25,8 @@
 
 
                 <StackLayout BackgroundColor="White" Padding="25">
-
-                    <Label Text="Nossa proposta consiste em MINIMIZAR o sofrimento de animais carentes em abandono ou em situação de risco. Assumimos os gastos financeiros para que eles recebam atendimento veterinário ( consultas, exames, cirurgias, tratamentos), ração, transporte e hospedagem. Levamos remédios e atendimento de higiene a animais de bairros periféricos da cidade de Araraquara. E promovemos a CONSCIENTIZAÇÃO E MUDANÇA DE ATITUDES da população para que a importância da Castração, a Guarda Responsável e os DIREITOS DOS ANIMAIS estejam presentes no dia a dia de todos nós."                   
+                    <StackLayout HorizontalOptions="Center">
+                        <Label Text="Nossa proposta consiste em MINIMIZAR o sofrimento de animais carentes em abandono ou em situação de risco. Assumimos os gastos financeiros para que eles recebam atendimento veterinário ( consultas, exames, cirurgias, tratamentos), ração, transporte e hospedagem. Levamos remédios e atendimento de higiene a animais de bairros periféricos da cidade de Araraquara. E promovemos a CONSCIENTIZAÇÃO E MUDANÇA DE ATITUDES da população para que a importância da Castração, a Guarda Responsável e os DIREITOS DOS ANIMAIS estejam presentes no dia a dia de todos nós."                   
                    FontAttributes="Bold"
                    LineBreakMode="WordWrap"
                    
@@ -36,6 +36,7 @@
                    FontSize="15"  
                     
                 />
+                    </StackLayout>
                 </StackLayout>
 
                 <StackLayout Margin="15,20,15,15" >

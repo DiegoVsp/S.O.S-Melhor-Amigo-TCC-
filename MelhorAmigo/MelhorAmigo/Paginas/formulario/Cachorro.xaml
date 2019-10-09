@@ -8,17 +8,29 @@
              x:Class="MelhorAmigo.Paginas.formulario.Cachorro">
     <ContentPage.Content>
         <StackLayout>
-            <TableView>
-                <TableRoot>
-                    <TableSection Title="Formulário">
-                        <EntryCell Label="Nome"/>
-                        <EntryCell Label="Sobrenome" Placeholder="Digite o seu sobrenome"/>
-                        <EntryCell Label="Endereço" Placeholder="Digite o seu endereço"/>
-                        <EntryCell Label="Telefone" Placeholder="Digite o seu telefone"/>
-                    </TableSection>
-                </TableRoot>
-            </TableView>
-            <Button Text="Enviar" FontSize="25" FontAttributes="Bold" TextColor="White" BackgroundColor="#d72234" VerticalOptions="EndAndExpand" />
+            <ScrollView>
+
+                <StackLayout>
+
+                    <TableView>
+                        <TableRoot>
+                            <TableSection>
+                                <EntryCell Placeholder="Digite seu Nome"/>
+                                <EntryCell Placeholder="Digite o seu sobrenome"/>
+                                <EntryCell Placeholder="Digite o seu endereço"/>
+                                <EntryCell Placeholder="Digite o seu telefone"/>
+                            </TableSection>
+                        </TableRoot>
+                    </TableView>
+
+
+                </StackLayout>
+
+
+            </ScrollView>
+            <StackLayout Margin="10">
+                <Button Text="Enviar" CornerRadius="15" FontSize="25" FontAttributes="Bold" TextColor="White" BackgroundColor="#d72234" WidthRequest="210"  HorizontalOptions="Center"/>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
