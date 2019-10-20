@@ -8,13 +8,13 @@
              Title="TELEFONES">
     <ContentPage.Content>
 
-        <StackLayout Margin="3" Spacing="10">
-            <Button Text="Ouvidoria Animal" FontSize="15" FontAttributes="Bold" TextColor="White" BackgroundColor="#d72234"/>
-            <Button Text="Coleta de Animais Mortos" FontSize="15" FontAttributes="Bold" TextColor="White" BackgroundColor="#d72234"/>
-            <Button Text="Animais Silvestres" FontSize="15" FontAttributes="Bold" TextColor="White" BackgroundColor="#d72234"/>
-            <Button Text="Guarda Municipal" FontSize="15" FontAttributes="Bold" TextColor="White" BackgroundColor="#d72234"/>
-            <Button Text="Feira de Adoção" FontSize="15" FontAttributes="Bold" TextColor="White" BackgroundColor="#d72234"/>
-        </StackLayout>
+        <ListView x:Name="ListaTelefones">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell TextColor="#d72234" Text="{Binding Nome}" Detail="{Binding Phone}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
 
     </ContentPage.Content>
 </ContentPage>

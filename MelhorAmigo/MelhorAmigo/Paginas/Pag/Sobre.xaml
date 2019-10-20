@@ -8,25 +8,27 @@
              BackgroundColor="White"
              x:Class="MelhorAmigo.Paginas.Pag.Sobre">
     <ContentPage.Content>
-        <ScrollView>
-            <StackLayout BackgroundColor="White" Spacing="0">
+        <StackLayout VerticalOptions="Center"> 
+            <ScrollView>
+                <StackLayout BackgroundColor="White" Spacing="0">
 
-                <StackLayout Padding="0" BackgroundColor="White">
-                    <Image HeightRequest="190">
-                        <Image.Source>
-                            <OnPlatform x:TypeArguments="ImageSource">
-                                <On Platform="Android, IOS" Value="logo2.jpeg"/>
-                                <On Platform="UWP" Value="Resources/logo2.jpeg"/>
-                            </OnPlatform>
-                        </Image.Source>
-                    </Image>
-                </StackLayout>
+                    <StackLayout Padding="0" BackgroundColor="White">
+                        <Image HeightRequest="190">
+                            <Image.Source>
+                                <OnPlatform x:TypeArguments="ImageSource">
+                                    <On Platform="Android, IOS" Value="logo2.jpeg"/>
+                                    <On Platform="UWP" Value="Resources/logo2.jpeg"/>
+                                </OnPlatform>
+                            </Image.Source>
+                        </Image>
+                    </StackLayout>
 
 
 
-                <StackLayout BackgroundColor="White" Padding="25">
-                    <StackLayout HorizontalOptions="Center">
-                        <Label Text="Nossa proposta consiste em MINIMIZAR o sofrimento de animais carentes em abandono ou em situação de risco. Assumimos os gastos financeiros para que eles recebam atendimento veterinário ( consultas, exames, cirurgias, tratamentos), ração, transporte e hospedagem. Levamos remédios e atendimento de higiene a animais de bairros periféricos da cidade de Araraquara. E promovemos a CONSCIENTIZAÇÃO E MUDANÇA DE ATITUDES da população para que a importância da Castração, a Guarda Responsável e os DIREITOS DOS ANIMAIS estejam presentes no dia a dia de todos nós."                   
+                    <StackLayout BackgroundColor="White" Padding="25" Margin="18,0,18,0">
+                        <StackLayout HorizontalOptions="Center">
+                            
+                            <Label Text="Nossa proposta consiste em MINIMIZAR o sofrimento de animais carentes em abandono ou em situação de risco. Assumimos os gastos financeiros para que eles recebam atendimento veterinário ( consultas, exames, cirurgias, tratamentos), ração, transporte e hospedagem. Levamos remédios e atendimento de higiene a animais de bairros periféricos da cidade de Araraquara. E promovemos a CONSCIENTIZAÇÃO E MUDANÇA DE ATITUDES da população para que a importância da Castração, a Guarda Responsável e os DIREITOS DOS ANIMAIS estejam presentes no dia a dia de todos nós."                   
                    FontAttributes="Bold"
                    LineBreakMode="WordWrap"
                    
@@ -36,14 +38,15 @@
                    FontSize="15"  
                     
                 />
+                        </StackLayout>
                     </StackLayout>
-                </StackLayout>
 
-                <StackLayout Margin="15,20,15,15" >
-                    <Button CornerRadius="15" Text="VISITE NOSSO SITE!" Clicked="site" TextColor="White" FontSize="20" WidthRequest="210" FontAttributes="Bold" BackgroundColor="#d72234" HorizontalOptions="Center"/>
-                </StackLayout>
+                    <StackLayout Margin="15,20,15,15" >
+                        <Button CornerRadius="15" Text="VISITE NOSSO SITE!" Clicked="site" TextColor="White" FontSize="20" WidthRequest="210" FontAttributes="Bold" BackgroundColor="#d72234" HorizontalOptions="Center"/>
+                    </StackLayout>
 
-            </StackLayout>
-        </ScrollView>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

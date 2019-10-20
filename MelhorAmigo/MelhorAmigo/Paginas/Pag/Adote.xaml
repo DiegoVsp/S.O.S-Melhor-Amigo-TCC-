@@ -9,7 +9,7 @@
              Title="ADOTE"             
              >
     <ContentPage.Content>
-        <StackLayout BackgroundColor="White">
+        <StackLayout BackgroundColor="White" VerticalOptions="Center">
             <ScrollView>
                 <StackLayout>
 

@@ -8,7 +8,7 @@
              x:Class="MelhorAmigo.Paginas.Pag.Apoie"
              Title="APOIE">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="White">
+        <StackLayout BackgroundColor="White" VerticalOptions="Center">
             <ScrollView>
                 <StackLayout>
 

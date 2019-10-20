@@ -8,7 +8,7 @@
              BackgroundColor="White"
              x:Class="MelhorAmigo.Paginas.Inicio.MenuInicio">
     <ContentPage.Content>
-        <StackLayout Spacing="15">
+        <StackLayout Spacing="15"  VerticalOptions="Center">
 
             <ScrollView>
                 <StackLayout>
