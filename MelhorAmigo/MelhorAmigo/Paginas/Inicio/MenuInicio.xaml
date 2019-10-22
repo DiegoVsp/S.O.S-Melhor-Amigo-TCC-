@@ -11,8 +11,7 @@
         <StackLayout Spacing="15"  VerticalOptions="Center">
 
             <ScrollView>
-                <StackLayout>
-
+                <StackLayout BackgroundColor="White">
                     <StackLayout Padding="10" BackgroundColor="White">
                         <Image HeightRequest="190">
                             <Image.Source>

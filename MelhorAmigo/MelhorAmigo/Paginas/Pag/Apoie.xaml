@@ -6,6 +6,7 @@
              xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
              mc:Ignorable="d"
              x:Class="MelhorAmigo.Paginas.Pag.Apoie"
+             BackgroundColor="White"
              Title="APOIE">
     <ContentPage.Content>
         <StackLayout BackgroundColor="White" VerticalOptions="Center">
@@ -29,7 +30,7 @@
                     </StackLayout>
 
                     <StackLayout Padding="50,0,50,0" WidthRequest="150" BackgroundColor="White">
-                        <StackLayout HorizontalOptions="Center">
+                        <StackLayout>
                             <input:RadioButtonGroupView>
                                 <input:RadioButton x:Name="rdbDez" Text="R$ 10,00" TextColor="Black"/>
                                 <input:RadioButton x:Name="rdbVinte" Text="R$ 20,00" TextColor="Black"/>
