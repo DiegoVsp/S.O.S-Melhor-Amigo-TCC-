@@ -3,8 +3,10 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "MelhorAmigo.Android.dll" comes first in this list. */
 		"MelhorAmigo.Android.dll",
+		"Correios.dll",
 		"FormsViewGroup.dll",
 		"MelhorAmigo.dll",
+		"Newtonsoft.Json.dll",
 		"Plugin.InputKit.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",

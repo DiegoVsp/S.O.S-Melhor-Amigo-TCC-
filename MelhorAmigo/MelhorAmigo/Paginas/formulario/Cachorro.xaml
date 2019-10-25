@@ -9,24 +9,31 @@
     <ContentPage.Content>
         <StackLayout>
             <ScrollView>
-
                 <StackLayout>
 
-                    <TableView>
-                        <TableRoot>
-                            <TableSection>
-                                <EntryCell Placeholder="Digite seu Nome"/>
-                                <EntryCell Placeholder="Digite o seu sobrenome"/>
-                                <EntryCell Placeholder="Digite o seu endereço"/>
-                                <EntryCell Placeholder="Digite o seu telefone"/>
-                            </TableSection>
-                        </TableRoot>
-                    </TableView>
+                    <Label Text="NOME"/>
+                    <Entry x:Name="NOME"/>
 
+                    <Label Text="CEP"/>
+                    <Entry x:Name="CEP"/>
+                    <Button Text="BUSCAR CEP" Clicked="BuscaCep"/>
+
+                    <Label Text="ENDERECO"/>
+                    <Entry x:Name="ENDERECO"/>
+
+                    <Label Text="NUMERO"/>
+                    <Entry x:Name="NUMERO"/>
+
+                    <Label Text="BAIRRO"/>
+                    <Entry x:Name="BAIRRO"/>
+
+                    <Label Text="TELEFONE"/>
+                    <Entry x:Name="TELEFONE"/>
+
+                    <Label Text="E-MAIL"/>
+                    <Entry x:Name="EMAIL"/>
 
                 </StackLayout>
-
-
             </ScrollView>
             <StackLayout Margin="10">
                 <Button Text="Enviar" CornerRadius="15" FontSize="25" FontAttributes="Bold" TextColor="White" BackgroundColor="#d72234" WidthRequest="210"  HorizontalOptions="Center"/>

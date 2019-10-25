@@ -29,6 +29,8 @@ namespace MelhorAmigo.Paginas.Pag
 
 
         }
+        
+
         //private async void Selecionado(object senders, SelectedItemChangedEventArgs e)
         //{
         //    Tel tel = e.SelectedItem as Tel;

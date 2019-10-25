@@ -8,19 +8,21 @@
              Title="TELEFONES">
     <ContentPage.Content>
 
-        <ListView x:Name="ListaTelefones" HasUnevenRows="True">
+        <ListView x:Name="ListaTelefones" HasUnevenRows="True" SelectionMode="None">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
                         <StackLayout>
                             <StackLayout Orientation="Vertical" Margin="10">
-                                <Label Text="{Binding Nome}" Margin="0" Font="15" TextColor="#d72234"></Label>
+                                <Label Text="{Binding Nome}" Margin="0" FontAttributes="Bold" Font="15" TextColor="#d72234"></Label>
                                 <Label Text="{Binding Phone}" Margin="0" TextColor="Black"></Label>
                             </StackLayout>
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
+            
         </ListView>
+        
     </ContentPage.Content>
 </ContentPage>
