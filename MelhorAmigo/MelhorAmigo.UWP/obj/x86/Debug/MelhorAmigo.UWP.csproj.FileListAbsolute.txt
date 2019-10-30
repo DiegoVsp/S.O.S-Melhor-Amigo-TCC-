@@ -61,3 +61,7 @@ C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\obj\x86\Debu
 C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_636160859180000000.json
 C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885418160000000.json
 C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\bin\x86\Debug\Plugin.InputKit.dll
+C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\bin\x86\Debug\Correios.dll
+C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\bin\x86\Debug\Correios.pdb
+C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\diego\source\repos\MelhorAmigo\MelhorAmigo\MelhorAmigo.UWP\bin\x86\Debug\Xamarin.Forms.BehaviorValidationPack.dll

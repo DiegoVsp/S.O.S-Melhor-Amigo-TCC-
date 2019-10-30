@@ -3,35 +3,66 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:behavior="clr-namespace:Xamarin.Forms.BehaviorValidationPack;assembly=Xamarin.Forms.BehaviorValidationPack"
              mc:Ignorable="d"
              Title="Adote um Gato"
+             BackgroundColor="White"
              x:Class="MelhorAmigo.Paginas.formulario.Gato">
     <ContentPage.Content>
         <StackLayout>
             <ScrollView>
-                <StackLayout>
+                <StackLayout Margin="20">
+                    <Grid BackgroundColor="White" RowSpacing="10" ColumnSpacing="10" HorizontalOptions="Center" VerticalOptions="Center">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="80"/>
+                        </Grid.ColumnDefinitions>
 
-                    <Label Text="NOME"/>
-                    <Entry x:Name="NOME"/>
 
-                    <Label Text="CEP"/>
-                    <Entry x:Name="CEP"/>
-                    <Button Text="BUSCAR CEP" Clicked="BuscaCep"/>
+                        <Label Text="FORMULÁRIO ADOÇÃO" Grid.ColumnSpan="2" Grid.Row="1" Grid.Column="0" FontSize="20" HorizontalOptions="Center"/>
+                        
+                        <Entry Placeholder="NOME" x:Name="NOME" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="2"/>
 
-                    <Label Text="ENDERECO"/>
-                    <Entry x:Name="ENDERECO"/>
+                        
+                        <Entry Placeholder="CEP" x:Name="CEP" Keyboard="Numeric" Grid.Column="0" Grid.Row="3">
+                            <Entry.Behaviors>
+                                <behavior:MaskedBehavior Mask="XXXXX-XXX" />
+                            </Entry.Behaviors>
+                        </Entry>
+                        <Button Text="BUSCAR" FontSize="Small" Clicked="BuscaCep" Grid.Column="1" Grid.Row="3" HeightRequest="30"/>
 
-                    <Label Text="NUMERO"/>
-                    <Entry x:Name="NUMERO"/>
 
-                    <Label Text="BAIRRO"/>
-                    <Entry x:Name="BAIRRO"/>
+                        <Entry Placeholder="ENDEREÇO" x:Name="ENDERECO" Grid.Column="0" Grid.Row="4"/>
+                        
 
-                    <Label Text="TELEFONE"/>
-                    <Entry x:Name="TELEFONE"/>
+                        <Entry Placeholder="Nº" x:Name="NUMERO" Keyboard="Numeric" Grid.Column="1" Grid.Row="4"/>
 
-                    <Label Text="E-MAIL"/>
-                    <Entry x:Name="EMAIL"/>
+
+                        <Entry Placeholder="BAIRRO" x:Name="BAIRRO" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="5"/> 
+
+                        
+                        <Entry Placeholder="(XX)XXXX-XXXX" x:Name="TELEFONE" Keyboard="Numeric" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="6">
+                            <Entry.Behaviors>
+                                <behavior:MaskedBehavior Mask="(XX) XXXX-XXXX" />
+                            </Entry.Behaviors>
+                        </Entry>
+
+                        
+                        <Entry Placeholder="E-MAIL" x:Name="EMAIL" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="7"/>
+
+                    </Grid>
+
+                    
                     
                 </StackLayout>
             </ScrollView>
